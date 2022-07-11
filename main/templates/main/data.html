@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Data</title>
+</head>
+<body>
+    {% for score in scores %}
+        <h2>    Username: {{ score.user }}</h2>
+        <p>     user id: {{ score.user.id }}</p>
+        <p>     age: {{ score.age }}</p>
+        <p>     score1: {{ score.score1 }}</p>
+        <p>     score2: {{ score.score2 }}</p>
+        <p>     score3: {{ score.score3 }}</p>
+
+    {% endfor %}
+</body>
+</html>
